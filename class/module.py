@@ -9,5 +9,6 @@ def extract_first_name(full_name):
 # This segment is executed only if the script is ran explicitly
 if __name__ == "__main__":
     print("---Running Module Test---")
-    name = extract_first_name("John Hancock")
+
+    name = extract_first_name("Gaurav Kumar")
     print(name)
